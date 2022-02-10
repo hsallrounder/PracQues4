@@ -150,9 +150,4 @@ public class DoublyLinkedList implements LL {
             System.out.println("null");
         }
     }
-    public static void main(String[] args) {
-        //List having name 'list' has been declared with size 0;
-        DoublyLinkedList list = new DoublyLinkedList();
-        //Functions can be implemented further.
-    }
 }

@@ -127,10 +127,4 @@ public class SinglyLinkedList implements LL{
             System.out.println("null");
         }
     }
-
-    public static void main(String[] args) {
-        //List having name 'list' has been declared with size 0;
-        SinglyLinkedList list = new SinglyLinkedList();
-        //Functions can be implemented further.
-    }
 }
