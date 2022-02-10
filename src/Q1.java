@@ -24,6 +24,7 @@ public class Q1 extends SinglyLinkedList {
         for(int i=0;i<n;i++){
             list.add(sc.nextInt());
         }
+        sc.close();
         NodeS temp=list.getHead();
         Q1 newlist=new Q1();
         while(temp!=null){

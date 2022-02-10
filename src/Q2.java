@@ -29,6 +29,7 @@ public class Q2 extends DoublyLinkedList {
         for(int i=0;i<n;i++){
             list.add(sc.nextInt());
         }
+        sc.close();
         NodeD temp=list.getHead();
         Q2 newlist=new Q2();
         while(temp!=null){
